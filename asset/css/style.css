@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: 20vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 10;
+    height: 7vh;
+}
+.list{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 350;
+    text-decoration-style: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+
+}
+.list a:hover{
+    color: rgb(38, 235, 38);
+    transform: scaleX(1.1);
+    transition: 1s;
+} 
+.box{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.boxbox{
+    width: 1000px;
+    height: 450px;
+    border-radius: 0px 20px;
+    /* background-color: rgb(2, 14, 5); */
+    padding: 100px 70px;
+    color: rgb(6, 12, 17);
+    
+}
+.name{
+    font-size: 70px;
+    font-weight: 900;
+    height: 130px;
+}
+.para{
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.span1{
+    color: rgb(228, 72, 72);
+    font-weight: 700;
+}
+.para2{
+    height: 40px;
+    font-weight: 600;
+}
+.phone{
+    height: 40px;
+     font-weight: 600;
+}
+.location{
+    height: 40px;
+    font-weight: 600;
+}
+.link{
+    height: 40px;
+     font-weight: 600;
+}
+.linkdiv{
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.myphoto{
+  
+}
+.myphoto img{
+    width: 24%;
+    height: 73%;
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    border-radius: 40px;
+    border: 10% solid orange ;
+}
+.section1{
+    width: 100%;
+    padding: 50px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.aboutpic img{
+    width: 600px;
+}
+.section1 h1{
+    font-size: 50px;
+    font-weight: 600px;
+}
+.section1 p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600px;
+
+}
+.skill{ 
+    width: 100%;
+    display: flex;
+    align-items: start;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.Download{
+    width: 100PX;
+    height: 40PX;
+    border-radius: 10%;
+    background-color: blue;
+    color: white;
+    border: 30px;
+    font-weight: 500;
+}
+.Download:hover{
+    background-color: black;
+    transition: 1s;
+}
+.idohead{
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section2{
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.sectionbox{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.box1{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(193, 43, 43);
+    border-radius: 10px;
+    border: 3px black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.box1 h1{
+    line-height: 20px;
+}
+.box1 p{
+    line-height: 20px;
+}
+.box2{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
